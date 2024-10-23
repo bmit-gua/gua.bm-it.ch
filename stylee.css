@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+.rectangle {
+    width: 1400px;
+    font-family: "Lato", sans-serif;
+    height: 600px;
+    background-color: #282a3b; /* Semi-transparent color */
+    border-radius: 50px;
+    box-shadow: 0 4px 8px #282a3b;
+    padding: 20px;
+    text-align: center;
+    position: absolute; /* Centering using absolute positioning */
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the rectangle */
+    z-index: 1;
+}
+h1 {
+  color: #ffdd9d;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 5px;
+  font-size: 50px;
+  text-transform: uppercase;
+  position: center;
+  left: 100%;
+  position: absolute; /* Mutlak konumlandırma */
+  top: 30px; /* Yükseklik konumu */
+  left: 770px; /* Sağ kenardan uzaklık */
+  z-index: 2; /* Diğer elemanların üstünde görünmesi için */
+  transition: transform 0.3s; 
+}
+h2 {
+  color: #ffdd9d;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 5px;
+  font-size: 50px;
+  text-transform: uppercase;
+  position: center;
+}
+h3 {
+  color: #ffdd9d;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 5px;
+  font-size: 50px;
+  text-transform: uppercase;
+  position: center;
+}
+h4 {
+  color: #ffdd9d;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 5px;
+  font-size: 50px;
+  text-transform: uppercase;
+  position: center;
+}
+.custom-btn {
+  width: 256px;
+  height: 110px;
+  font-family: "Fjalla one", sans-serif;
+  background-color: #282a3a; /* Button background color */
+  color: #ffdd9d; /* Button text color */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 35px;
+  cursor: pointer;
+  margin: 10px;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: background-color 0.3s ease;
+  position: absolute; /* Mutlak konumlandırma */
+  top: 200px; /* Yükseklik konumu */
+  left: 730px; /* Sağ kenardan uzaklık */
+  z-index: 2; /* Diğer elemanların üstünde görünmesi için */
+  transition: transform 0.3s; 
+  
+  
+}
+
+.custo-btn{
+  width: 256px;
+  height: 110px;
+  font-family: "Fjalla one", sans-serif;
+  background-color: #282a3a; /* Button background color */
+  color: #ffdd9d; /* Button text color */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 35px;
+  cursor: pointer;
+  margin: 10px;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: background-color 0.3s ease;
+  position: absolute; /* Mutlak konumlandırma */
+  top: 370px; /* Yükseklik konumu */
+  left: 880px; /* Sağ kenardan uzaklık */
+  z-index: 2; /* Diğer elemanların üstünde görünmesi için */
+  transition: transform 0.3s; 
+
+
+}
+.custo1-btn{
+  width: 256px;
+  height: 110px;
+  font-family: "Fjalla one", sans-serif;
+  background-color: #282a3a; /* Button background color */
+  color: #ffdd9d; /* Button text color */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 35px;
+  cursor: pointer;
+  margin: 10px;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: background-color 0.3s ease;
+  position: absolute; /* Mutlak konumlandırma */
+  top: 200px; /* Yükseklik konumu */
+  left: 1049px; /* Sağ kenardan uzaklık */
+  z-index: 2; /* Diğer elemanların üstünde görünmesi için */
+  transition: transform 0.3s; 
+
+
+
+
+}
+
+.rectangle-img{
+  position: absolute; /* Mutlak konumlandırma */
+  top: 55px; /* Yükseklik konumu */
+  left: 155px; /* Sağ kenardan uzaklık */
+  z-index: 2; /* Diğer elemanların üstünde görünmesi için */
+  transition: transform 0.3s; 
+  width: 430px;
+  height: 510px;
+  border: 5px solid #ffdd9d; /* Gelbe Umrandung */
+  border-radius: 20px; /* Runde Ecken */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+
+svg {
+  fill: #ffdd9d; /* SVG içindeki ok rengi beyaz */
+  background-color: #282a3a;
+  width: 100px;
+  height: 30px;
+}
+
+.custom-btn:hover {
+  background-color: #ffdd9d; /* Hover color */
+}
+.custom-btn:hover {
+  color: #282a3b; /* Button text color */
+}
+
+
+.custo-btn:hover {
+  background-color: #ffdd9d; /* Hover color */
+}
+.custo-btn:hover {
+  color: #282a3b; /* Button text color */
+}
+
+.custo1-btn:hover {
+  background-color: #ffdd9d; /* Hover color */
+}
+.custo1-btn:hover {
+  color: #282a3b; /* Button text color */
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;  /* Scrollbar'ı devre dışı bırakır */
+  background-color: #282a3a;  /* Beyaz flaşlamayı engeller */
+}
+
+canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;  /* Arka planı kaplasın */
+  top: 0;
+  left: 0;
+}
+.back-btn{
+  font-size: 2px;
+  background-color: #282a3a;
+  position: absolute; /* Mutlak konumlandırma */
+  top: 850px; /* Yükseklik konumu */
+  left: 25px; /* Sağ kenardan uzaklık */
+  z-index: 2; /* Diğer elemanların üstünde görünmesi için */
+  transition: transform 0.3s; 
+
+}
+
+.reload-btn{
+  font-size: 2px;
+  background-color: #282a3a;
+  position: absolute; /* Mutlak konumlandırma */
+  top: 50px; /* Yükseklik konumu */
+  left: 25px; /* Sağ kenardan uzaklık */
+  z-index: 2; /* Diğer elemanların üstünde görünmesi için */
+  transition: transform 0.3s; 
+}
+
+.forward-btn{
+  font-size: 2px;
+  background-color: #282a3a;
+  position: absolute; /* Mutlak konumlandırma */
+  top: 50px; /* Yükseklik konumu */
+  left: 1800px; /* Sağ kenardan uzaklık */
+  z-index: 2; /* Diğer elemanların üstünde görünmesi için */
+  transition: transform 0.3s; 
+}
+
+
+
+
+
+
+
+
+
+
